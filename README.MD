@@ -113,3 +113,17 @@ Crie um endpoint que liste todos os pacientes e suas cirurgias realizadas, mas o
 #### Exercício 3
 
 Crie um endpoint que de acordo com o nome do médico, que deve ser recebido via requisição, liste todas as cirurgias realizadas pelo mesmo, um get na url `http://localhost:3000/surgeries/Rey%20Dos%20Santos`deve retornar as cirurgias realizadas pelo médico `Rey Dos Santos`.
+
+### Extra para XP
+
+### Exercício 1
+
+Crie um endpoint para realizar um login, onde retorna um token. Crie uma tabela nova ou utilize a tabela de pacientes para armazenar as colunas `user` e `password`.
+
+### Exercício 2
+
+Com um middleware de autenticação, faça o bloqueio da rota lista todos os pacientes e seus respectivos planos.
+
+### Exercício 3
+
+Faça um teste de integração para cobrir a rota que lista todos os pacientes e seus respectivos planos.
