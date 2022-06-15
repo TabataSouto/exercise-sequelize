@@ -4,6 +4,7 @@ module.exports = {
     await queryInterface.createTable('Patient_surgeries', {
       patient_id: {
         type: Sequelize.INTEGER,
+        // allowNull: false,
         references: {
           model: 'Patients',
           key: 'patient_id',
@@ -13,6 +14,7 @@ module.exports = {
       },
       surgery_id: {
         type: Sequelize.INTEGER,
+        // allowNull: false,
         references: {
           model: 'Surgeries',
           key: 'surgery_id',
